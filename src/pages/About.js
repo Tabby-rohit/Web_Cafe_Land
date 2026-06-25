@@ -20,7 +20,7 @@ const About = () => {
   ];
 
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about__container">
         <div className="about__left">
           <p className="about__tag">ABOUT WEBCAFE</p>

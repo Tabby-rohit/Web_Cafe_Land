@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 import {useEffect,useState} from "react";
 
 const Header = () => {
@@ -31,20 +32,6 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__overlay"></div>
-
-      <nav className="navbar">
-        <div className="navbar__logo">WebCafe</div>
-
-        <ul className="navbar__links">
-          <li>Home</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-        </ul>
-
-        <button className="navbar__button">Get Started</button>
-      </nav>
-
       <div className="hero">
         <div className="hero__content">
           <h1>
