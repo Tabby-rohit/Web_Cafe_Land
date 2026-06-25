@@ -45,9 +45,7 @@ const Header = () => {
             experiences in real-time.
           </p>
 
-          <button className="hero__button">
-            Get Started — It’s Free →
-          </button>
+          
         </div>
 
         {floatingItems.map((item,index) => (
