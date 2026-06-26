@@ -7,9 +7,11 @@
 .header {
   position: relative;
   min-height: 100vh;
+  
   background: #000;
   overflow: hidden;
   color: white;
+  size: 100%;
 }
 
 .header__overlay {
@@ -62,7 +64,10 @@
 }
 
 .hero {
-  position: relative;
+  size: 100vh;
+  max-height: fit-content;
+  padding-bottom: 0%;
+  border-width: 0cm;
   z-index: 3;
   min-height: calc(100vh - 100px);
   display: flex;
